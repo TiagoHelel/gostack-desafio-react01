@@ -34,14 +34,7 @@ class PostList extends Component {
             date: "04 Jun 2019",
             content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
             comments: [
-                {
-                id: 1,
-                author: {
-                    name: "Diego Fernandes",
-                    avatar: "http://url-da-imagem.com/imagem.jpg"
-                },
-                content: "podepá"
-                }
+                
             ]
             },
             {
@@ -59,7 +52,7 @@ class PostList extends Component {
                     name: "Diego Fernandes",
                     avatar: "http://url-da-imagem.com/imagem.jpg"
                 },
-                content: "podepá"
+                content: "podepá podepá podepá podepá podepá podepá podepá podepá podepá"
                 }
             ]
             },
