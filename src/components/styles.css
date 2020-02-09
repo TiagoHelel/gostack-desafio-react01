@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #E6ECF0;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+    
+input, button {
+    outline: 0;
+}
+
+.content {
+    display: flex;
+    max-width: 1440pxs;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #3B5999;
+    height: 50px;
+}
+
+div.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div img.facebook {
+    width: 140px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #fff;
+}
+
+div img.person {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+div.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 600px;
+    background: #fff;
+    color: #1a1a1a;
+    margin-top: 10px;
+    border-radius: 5%;
+    box-shadow: #1a1a1a;
+}
+
+div.posts .avatar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+div.posts .avatar .name {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+div.posts .avatar img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+div.comments {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.comments img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+div.comments .comment {
+    background: #E6ECF0;
+    border-radius: 5%;
+    padding: 7px;
+    font-size: 12px;
+}
